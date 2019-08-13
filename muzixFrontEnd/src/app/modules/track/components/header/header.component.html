@@ -1,0 +1,33 @@
+<header>
+    <nav>
+      <mat-toolbar>
+        <mat-toolbar-row>
+
+            <div class="navbar-header">  
+                <img src="./assets/musiclogo.png" class="img-rounded" alt="muzix-logo" width="50px" height="50px">
+            </div>
+
+          <span id="branding" [routerLink]="['/']">Cloud PLAY</span>
+
+          <section class="txt-center">
+
+            <mat-chip-list>
+              <mat-chip  class="navLinks" selected [routerLink]="['/home']" >Home</mat-chip>
+              <mat-icon class="pipes">remove</mat-icon>
+              <mat-chip  class="navLinks" selected [routerLink]="['/playlist']">My Playlist</mat-chip>
+            </mat-chip-list>
+
+          </section>
+
+          <mat-form-field appearance="outline" >
+              <mat-label>Search</mat-label>
+              <input matInput placeholder="Enter Track Name" (input)="search($event.target.value)">
+              <mat-icon matSuffix>search</mat-icon>
+              
+          </mat-form-field>
+
+
+        </mat-toolbar-row>
+      </mat-toolbar>
+    </nav>
+  </header>

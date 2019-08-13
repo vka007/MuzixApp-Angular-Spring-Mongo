@@ -1,0 +1,51 @@
+#branding {
+    font-size: 25px;
+    cursor: progress;
+    padding-left: 10px;
+}
+
+.txt-center {
+    text-align: center;
+    display: inline;
+    margin: auto;
+    padding-left: 480px;
+}
+
+.navLinks {
+    font-size: 1.00rem;
+    cursor: pointer;
+    
+}
+
+mat-chip {
+    padding: 1.25rem;
+}
+
+.pipes {
+    transform: rotate(90deg);
+    padding: 0%;
+    margin: 0%;
+}
+
+mat-chip:hover {
+    box-shadow: 2.5px 5p black;
+}
+
+mat-form-field {
+    font-size: 15px;
+    margin: auto;
+    
+}
+
+mat-form-field-appearance{
+    border-block-color: white;
+}
+
+mat-form-field > input{
+    border-radius: 10px;
+}
+
+mat-toolbar{
+    background-color: rgb(255, 255, 255);
+}
+

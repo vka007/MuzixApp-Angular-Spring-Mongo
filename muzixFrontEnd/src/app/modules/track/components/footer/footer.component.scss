@@ -1,0 +1,27 @@
+.social-footer {
+    position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: rosybrown;
+      color: white;
+      text-align: center;
+  }
+  
+  .social-footer-icons{
+    float: right;
+    padding-right: 100px;
+    justify-content: space-between;
+    height: 90px;
+  }
+  
+  //giving padding between icons
+  .fab{
+    padding: 30px;
+  }
+  //setting position for footer copyright
+  .copyright{
+    float: left;
+    width: 120px;
+    padding-top: 20px;
+  }
